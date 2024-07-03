@@ -1,18 +1,47 @@
 body{
-    background-color: aliceblue;
+ padding: 0;
+ margin: 0;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
 }
-.first h1{
-   width: 30rem;
-}
-.first p{
-    width: 35rem;
-}
-.first .button {
+.first{
     display: flex;
-    margin-bottom: 5rem;
-    justify-content: space-around;
 }
-.first .button .meta1{
+.text{
+    padding: 40px;
+}
+.text h1{
+    width: 20rem
+}
+.edition{
+    font-size: 1rem;
+}
+.text p{
+    width: 30rem;
+}
+.button a{
     text-decoration: none;
     background-color: teal;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px ;
+    margin-right: 20px;
+    
+}
+.grid{
+    max-width: 50%;
+}
+.grid img{
+    width: 30rem;
+    border-radius: 20px;
+    
+}
+.button{
+    margin-top: 20rem;
+    
 }
