@@ -160,6 +160,7 @@ header{
 }
 .down {
     background-color: white;
+    
 }
 .last{
     display: flex;
@@ -167,7 +168,7 @@ header{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .last ul{
@@ -181,6 +182,28 @@ header{
 .last .dummy a{
     text-decoration: none;
     color: black;
+}
+.end-icons{
+    background-color: white;
+    display: flex;
+   justify-content: center;
+   gap: 3rem;
+
+   
+}
+.end-icons img{
+    width: 25px;
+    padding-bottom: 20px;
+
+}
+.final{
+    background-color: rgb(31, 41, 48, 0.911);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    
 }
 
     
