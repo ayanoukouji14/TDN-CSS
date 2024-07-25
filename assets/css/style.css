@@ -22,9 +22,10 @@ header{
     gap: 1rem;
     background-color: white;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
 }
 .icon img{
-    width: 50%;
+    width: 40%;
     margin-bottom: 10px;
     height: 50px;
     padding-left: 30px;
@@ -38,15 +39,18 @@ header{
 .navlinks a{
     text-decoration: none;
     color: black;
-    font-size: 28px;
+    font-size: px;
     padding: 1rem;
     
 }
-
+.navbutton{
+    margin-right: 80px;
+    margin-top: 1rem;
+}
 .navbutton a{
     text-decoration: none;
     color: white;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 3px;
     padding-top: 5px;
     padding-left: 5px;
@@ -104,6 +108,9 @@ header{
     margin: 20px;
     padding: 30px;
     border-radius: 10px;
+}
+.con h1{
+    font-size:3rem ;
 }
 .box-header h1{
    padding-bottom: 20px;
@@ -178,6 +185,9 @@ header{
 }
 .last .dummy{
     line-height: 2rem;
+}
+.dummy img{
+    width: 17px;
 }
 .last .dummy a{
     text-decoration: none;
